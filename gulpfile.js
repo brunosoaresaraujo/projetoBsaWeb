@@ -10,9 +10,9 @@ var pkg = require('./package.json');
 
 // Set the banner content
 var banner = ['/*!\n',
-    ' * BSAWEB - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-    ' * Copyright 2017-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-    ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n',
+    ' * BSAWEB\n',
+    ' * www.bsaweb.com.br\n',
+    ' * Licença <%= pkg.license.type %> (<%= pkg.license.url %>)\n',
     ' */\n',
     ''
 ].join('');
